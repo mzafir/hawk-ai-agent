@@ -1,0 +1,114 @@
+# ===============================
+# 🐍 Python & Virtual Environments
+# ===============================
+venv/
+*/venv/
+**/venv/
+env/
+*/env/
+**/env/
+.env/
+*/.env/
+**/.env/
+
+# ===============================
+# 🔒 Credentials & Authentication
+# ===============================
+# Generic credential and token files
+*.pem
+*.key
+*.crt
+*.csr
+*.pfx
+*.p12
+*.jks
+*.keystore
+*.secret
+*.secrets
+*.token
+*.auth
+*.creds
+*.credentials
+*.config.json
+*.env.json
+
+# Files explicitly starting with CREDENTIALS or CREDENTIALS_setup
+CREDENTIALS*
+*/CREDENTIALS*
+**/CREDENTIALS*
+CREDENTIALS_setup*
+*/CREDENTIALS_setup*
+**/CREDENTIALS_setup*
+
+# Framework/library credentials
+firebase.json
+google-services.json
+aws-credentials*
+.aws/
+gcloud-*
+azure*
+serviceAccount*.json
+id_rsa
+id_rsa.pub
+ssh_config
+secrets.yaml
+secrets.json
+config.yml
+config.yaml
+local_settings.py
+settings_local.py
+
+# ===============================
+# 📘 Documentation (READMEs)
+# ===============================
+README
+README.*
+readme
+readme.*
+ReadMe*
+*/README*
+**/README*
+*/readme*
+**/readme*
+
+# ===============================
+# 🧱 Python Cache / Build Files
+# ===============================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# ===============================
+# 🧰 IDE / Editor Files
+# ===============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===============================
+# 🧪 Jupyter & Notebooks
+# ===============================
+.ipynb_checkpoints/
+*.ipynb_save
+
+# ===============================
+# 🐳 Docker / Local Env
+# ===============================
+*.pid
+*.log
+docker-compose.override.yml
+.env.docker
+.env.dev
+.env.prod
+
+# ===============================
+# 🧾 Miscellaneous
+# ===============================
+.DS_Store
+Thumbs.db
+

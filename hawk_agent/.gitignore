@@ -1,0 +1,28 @@
+# Ignore Python virtual environments (anywhere in the repo)
+venv/
+*/venv/
+**/venv/
+
+# Common alternative names for virtual environments
+.env/
+*/.env/
+**/.env/
+env/
+*/env/
+**/env/
+
+# PyCharm / VSCode virtual environment folders
+.idea/
+.vscode/
+
+# Optional: Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+build/
+dist/
+.eggs/
+
